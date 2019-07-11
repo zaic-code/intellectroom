@@ -1,0 +1,137 @@
+.model
+    display flex
+    flex-direction row
+    align-items center
+    justify-content space-between    
+    .game        
+        box-sizing border-box
+        flex-basis 700px
+        height 600px
+        border 35px solid #fff
+        background-color  #009688
+        box-shadow: 0 2px 4px rgba(0,0,0,.3);
+        position relative
+        .start
+            position absolute
+            width 100%
+            height 100%
+            background-color #575fcf
+            display flex
+            align-items center
+            justify-content center
+            z-index 10001
+            input
+                background-color #706fd3
+                width 200px
+                height 60px
+                border none
+                border-radius 30px
+                font-size 25px
+                color #ffffff                 
+                font-family 'Oswald', sans-serif               
+                box-shadow 0 2px 4px rgba(0,0,0,.3)
+                letter-spacing 1px
+                &:hover
+                    cursor pointer
+                    box-shadow 0 2px 4px rgba(0,0,0,.3) 
+        .game_play            
+            padding-top 45px
+            p
+                color #ffffff 
+                font-family 'Oswald', sans-serif      
+        .game_top            
+            display flex
+            align-items center
+            justify-content center            
+            width 100%
+            height 50%            
+            p
+                margin-top 75px
+                padding 0px 25px
+                font-family 'Oswald', sans-serif
+                font-size 120px
+                color #ffffff
+                font-weight 700px
+        p
+            margin-top 10px
+            color #ffffff 
+            font-family 'Oswald', sans-serif          
+        input
+            text-align center
+            width 62px
+            height 52px 
+            margin-top 20px
+            font-family 'Oswald', sans-serif
+            font-size 55px            
+            font-weight 700px
+            color #fff 
+            background-color #009688
+            border 3px solid #fff            
+            
+    .descr
+        display flex
+        flex-direction column
+        justify-content flex-start
+        flex-basis 250px
+        height 600px
+        .descr_result
+            display flex
+            flex-direction row
+            flex-wrap wrap
+            align-items center
+            justify-content space-between
+            .result_error
+                box-sizing border-box
+                border-radius 50%
+                border 5px solid #ffffff
+                width 75px
+                height 75px
+                background-color #e74c3c 
+                text-align center
+                box-shadow: 0 2px 4px rgba(0,0,0,.3);
+                p
+                    color #ffffff
+                    font-size 30px
+                    padding-top 17px
+            .result_ritch
+                box-sizing border-box
+                border-radius 50%
+                border 5px solid #fff 
+                width 75px
+                height 75px
+                background-color #1abc9c 
+                text-align center
+                box-shadow: 0 2px 4px rgba(0,0,0,.3);
+                p
+                    color #ffffff
+                    font-size 30px
+                    padding-top 17px
+            .time
+                box-sizing border-box
+                border-radius 50%
+                border 5px solid #fff 
+                width 75px
+                height 75px
+                background-color #f1c40f 
+                text-align center
+                box-shadow: 0 2px 4px rgba(0,0,0,.3);
+                p
+                    color #ffffff
+                    font-size 30px
+                    padding-top 17px
+                      
+        h1
+            font-family 'Poiret One', cursive
+            font-size 25px
+            padding 50px 0px
+        .settings_number
+            display flex
+            flex-direction column            
+            align-items flex-start
+            margin-top 25px
+        .settings_time
+            margin-top 25px
+            display flex
+            flex-direction row
+            flex-wrap nowrap
+            justify-content space-between
